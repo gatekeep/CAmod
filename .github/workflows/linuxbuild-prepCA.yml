@@ -6,7 +6,7 @@ name: Linux CI
 # events but only for the master branch
 on:
   push:
-    tags:
+    branches:
       - build
   pull_request:
     branches: [ master ]
